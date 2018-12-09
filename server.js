@@ -2,7 +2,7 @@ const express = require('express');
 const hbs = require('hbs');
 const fs = require('fs');
 
-let underMaint = true;
+let underMaint = false;
 
 var app = express();
 
